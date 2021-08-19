@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.itca.lab2_daute.MainActivity">
+    <item
+        android:id="@+id/action_Pantalla1"
+        android:orderInCategory="1"
+        android:icon="@drawable/ic_sa"
+        android:title="@string/action_Pantalla1"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_Pantalla2"
+        android:orderInCategory="2"
+        android:icon="@drawable/ic_wa"
+        android:title="@string/action_Pantalla2"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_Pantalla3"
+        android:orderInCategory="3"
+        android:icon="@drawable/ic_qa"
+        android:title="@string/action_Pantalla3"
+        app:showAsAction="always" />
+</menu>
