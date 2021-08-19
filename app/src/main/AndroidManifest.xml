@@ -9,21 +9,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Lab2DAUTE">
-        <activity android:name=".checkpoint"/>
-        <activity android:name=".radio">  <intent-filter>
-        <action android:name="android.intent.action.MAIN" />
+        <activity android:name=".Notificaciones"></activity>
+        <activity android:name=".checkpoint" />
+        <activity android:name=".radio">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-        <category android:name="android.intent.category.LAUNCHER" />
-    </intent-filter>
-    </activity>
-
-        <activity android:name=".Boton" />
-
-
-
-        <activity android:name=".MainActivity3">
-
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
+        <activity android:name=".Boton" />
+        <activity android:name=".MainActivity3"></activity>
         <activity android:name=".MainActivity2" />
         <activity
             android:name=".MainActivity"
