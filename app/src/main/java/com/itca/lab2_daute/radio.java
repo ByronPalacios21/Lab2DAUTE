@@ -60,11 +60,14 @@ public class radio extends AppCompatActivity {
         int suma=nro1+nro2;
         String resu=String.valueOf(suma);
         tv3.setText(resu);
-    } else
+    } else{
+
+
         if (r2.isChecked()==true){
         int resta=nro1-nro2;
         String resu=String.valueOf(resta);
         tv3.setText(resu);
         }
+}
 }
 }
