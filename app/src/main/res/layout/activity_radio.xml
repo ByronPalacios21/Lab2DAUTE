@@ -39,8 +39,9 @@
 
 
     <RadioGroup
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_width="50dp"
+        android:layout_height="10dp" >
+
     <RadioButton
         android:id="@+id/r1"
         android:layout_width="wrap_content"
@@ -53,12 +54,15 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Resta" />
+    </RadioGroup>
+
 
     <Button
         android:id="@+id/button2"
-        android:onClick="Operar"
         android:layout_width="wrap_content"
+android:layout_gravity="center"
         android:layout_height="wrap_content"
+        android:onClick="Operar"
         android:text="operar" />
 
     <TextView
